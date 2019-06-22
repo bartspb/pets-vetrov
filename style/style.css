@@ -143,14 +143,20 @@ h2 {
 	margin-left: 20px;
 }
 
-.link_yellow:after {
+.link-yellow:after {
 	content: '';
 	width: 28px;
 	height: 28px;
 	vertical-align: middle;
 	display: inline-block;
 	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 105% 10%;
+	width: 30px;
+	height: 28px;
 }
+
+.link-yellow:hover:after  { background-position: 105% 110%; }
 
 .flex-breed {
 	display: flex;
@@ -158,7 +164,6 @@ h2 {
 }
 
 .breed {
-
 	width: 50%;
 }
 
@@ -179,7 +184,13 @@ h3 {
 	vertical-align: middle;
 	display: inline-block;
 	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 105% 110%;
+	width: 30px;
+	height: 28px;
 }
+
+.link-blue:hover:after  { background-position: 105% 10%; }
 
 .blog-container {
 	background-image: url(../images/blog-bg.jpg);
@@ -207,3 +218,21 @@ h3 {
 	line-height: 30px;
 	color: #b7adc8;
 }
+
+.icon {
+	background-image: url(../images/sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 30px;
+	height: 28px;
+	display: inline-block;
+}
+
+.vk       { background-position: 0% 0%;  }
+.vk:hover { background-position: 0% 100%; }
+
+.fb       { background-position: 36% 0%;  }
+.fb:hover { background-position: 36% 100%; }
+
+.insta       { background-position: 72% 0%; }
+.insta:hover { background-position: 72% 100%; }
