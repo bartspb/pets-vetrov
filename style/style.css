@@ -133,7 +133,8 @@ h2 {
 	line-height: 40px;
 }
 
-.description {	
+.description {
+	margin: 30px 90px 30px 0;	
 	color: #b8adc8;
 }
 
@@ -233,13 +234,12 @@ h3 {
 	background-position: 105% 10%;
 }
 
-.blog-container {
-	background-image: url(../images/blog-bg.jpg);
-	background-repeat: repeat;
-}
-
 .block-review {
 	margin-left: 45px;
+}
+
+.review-container {
+	margin: 150px auto;
 }
 
 .name-reviewer {
@@ -248,16 +248,23 @@ h3 {
 	font-family: 'Fira Sans', sans-serif;
 	letter-spacing: 50;
 	line-height: 30px;
+	margin: 0;
 }
 
 .more-review {
-	font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
 	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	letter-spacing: 50;
+	line-height: 30px;
+	color: #b7adc8;
 }
 
 time {
 	font-style: italic;
 	font-family: 'Roboto', sans-serif;
+	line-height: 30px;
 	color: #737274;
 }
 
@@ -266,13 +273,49 @@ blockquote {
 }
 
 .review-img {
-	margin-top: 30px;
+	margin: 30px 0 15px;
 	border-radius: 5px;
-	box-shadow: -15px 0 25px #2f0964;
+	box-shadow: 0 -1px 15px #000;
+}
+
+.link-vk {
+	font-weight: 700;
+	color: #510fad;
+}
+
+.link-vk:hover {
+	color: #737274;
+}
+
+.blog-container {
+	padding: 50px 0;
+	background-image: url(../images/blog-bg.jpg);
+	background-repeat: repeat;
+}
+
+.block-blog {
+	margin-left: 50px;
+}
+
+.section-title-white-blog {
+	color: #fff;
 }
 
 .articles {
 	display: flex;
+}
+
+.article1,
+.article2 {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 50;
+	line-height: 30px;
+	margin: 10px;
+	color: #202020;
+	border-radius: 5px;
+	background-color: #fff;
 }
 
 .description {
